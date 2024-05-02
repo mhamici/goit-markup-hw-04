@@ -354,6 +354,7 @@ position: absolute;
 }
 /*---------Footer-------*/
 .page-footer {
+  display: flex;
   background: #2e2f42;
   padding: 100px 0px;
 }
@@ -398,3 +399,14 @@ color: #f4f4fd;
   background-color: #4d5ae5;
   margin-bottom: 32px;
   }
+
+  .footer-list-icons{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    margin-bottom: 32px;}
