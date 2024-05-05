@@ -269,7 +269,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .team-item-title{
 font-weight: 500;
-padding-bottom: 8px;
+margin-bottom: 8px;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
@@ -282,7 +282,6 @@ background-color: #ffffff;
 .team-description{
   padding-top:32px;
   padding-bottom: 32px;
-  padding-bottom: 8px;
   }
 
 .team-item-paragraph{
@@ -291,6 +290,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #434455;
+margin-bottom: 8px;
 }
 
 .team-image{
@@ -302,8 +302,6 @@ color: #434455;
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-top: 8px;
-  padding-bottom: 32px;
 }
 .social-icons-list{
 width: 40px;
@@ -416,13 +414,11 @@ background-color: #4d5ae5;
   background: #2e2f42;
   padding: 100px 0px;
 }
-.container.container-footer{
-margin-left: 156px;
-margin-right: 120px;
-}
-.footer{
+.footer {
   display: flex;
   align-items: baseline;
+}
+.container-footer {
   margin-right: 120px;
 }
 .page-footer-logo {
