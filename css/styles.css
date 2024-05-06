@@ -409,6 +409,12 @@ background-color: #4d5ae5;
 .image-section-overlay:hover .paragraph-overlay{
   transform: translateY(0);
 }
+
+.portfolio-list-item:hover .paragraph-overlay{
+  transform: translateY(0);
+}
+
+
 /*---------Footer-------*/
 .page-footer {
   background: #2e2f42;
